@@ -1,0 +1,49 @@
+IT Term Project - Document Assignment List
+Author: Autumn Boyette
+
+Page 1: Home Page (home.html)
+-Section, Header, Article, Footer, Nav Bar present
+-Web form with all required features (displays message upon successful submission)
+-4 images present
+-Text shadow present
+-Links between pages & external webpages
+
+Page 2: About Me Page (aboutme.html)
+-Section, Header, Footer, Nav Bar present
+-3 images present
+-Border Image present
+-Links between pages
+
+Page 3: Content Page (content.html)
+-Section, Header, Article, Aside, Footer, Nav Bar present
+-Video media present (Youtube player used)
+-28 images present
+-Box shadow present
+-Links between pages & external webpages
+
+Page 4: Calendar Page (calendar.html)
+-Section, Header, Footer, Nav Bar present
+-10 unique images present
+-Web table present
+-Links between pages
+
+Page 5: Friends Page (friends.html)
+-Section, Header, Article, Footer, Nav Bar present
+-1 image present
+-Links between pages & external webpages
+
+~All pages implement screen and print medias
+
+CSS Page 1: general.css
+-Contains styling of all pages
+
+CSS Page 2: calendar.css
+-Contains specific css rules for calendar formatting
+
+CSS Page 3: print.css
+-Specifies print styling for all pages
+
+Other Page 1: submitform.js
+-Javascript page for form submission on home.html
+
+Other Page 2: modernizr-1.5.js

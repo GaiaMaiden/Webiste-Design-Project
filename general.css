@@ -1,0 +1,195 @@
+/*
+   IT Term Project
+
+   Term Project General Style Sheet
+   Author: Autumn Boyette 
+   Date:   11/17/2016
+
+   Filename:         general.css
+   Supporting Files: border.png
+
+*/
+
+/* Header Styles */
+header img {
+	width: 100%;
+}
+
+/* Body Styles */
+body {
+	background-color: rgb(247,255,142);
+}
+
+#aboutme > p:first-of-type:first-letter {
+	float: left;
+	font-size: 4em;
+	margin-right: 0.3em;
+	border-bottom: 0.02em solid black;
+	border-right: 0.02em solid black;
+	padding-bottom: 0.1em;
+	padding-right: 0.1em;
+}
+
+#aboutme > img {
+	height: 10%;
+	width: 10%;
+	float: left;
+}
+
+section#main {
+	float: left;
+	display: block;
+}
+
+section#main article > h2 {
+	text-shadow: 0 0 3px #FF0000, 0 0 5px yellow;
+}
+
+section#main > p {
+	position: relative; 
+	word-break: break-all;
+}
+
+section#links {
+	margin-left: 5px;
+	padding-left: 5px;
+	float: left;
+	border-left: 1px solid black;
+}
+
+section#aboutme {
+	border: 10px solid transparent;
+    padding: 15px;
+	-webkit-border-image: url(border.png) 30 round;
+    -o-border-image: url(border.png) 30 round;
+    border-image: url(border.png) 30 round;
+}
+
+aside {
+	width: 32%;
+	float: right;
+	display: block;
+}
+
+article#post {
+	clear: left;
+	float: left;
+}
+
+article#post nav ul li {
+	width: 200px;
+	height: 120px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+article#pre nav ul li {
+	width: 200px;
+	height: 120px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+article#pre {
+	float: left;
+}
+
+article#other {
+	float: left;
+}
+
+/* Navigation Styles */
+
+nav#head {
+	margin: 0px 5px 5px 0px;
+	border: 1px solid black;
+	background-color: rgba(47,196,31, 0.5);
+}
+
+nav#head ul li {
+	display: block;
+	float: left;
+	padding: 2px;
+	border-right: 1px solid black;
+	margin-left: 1em;
+	margin-bottom: 1.2em;
+}
+
+nav ul li a:link {
+	color: black;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+/* Form Styles */
+
+#feedbackFS {
+	background-color: rgb(252, 252, 166);
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	width: 90%;
+}
+
+label {
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+fieldset.optiongroup {
+	border-width: 0px;
+}
+
+fieldset.optiongroup label {
+	display: inline;
+	float: none;
+	margin: 0px 3px 0px 0px;
+	width: 30px;
+}
+
+fieldset.optiongroup input {
+	display: inline;
+	float: none;
+	margin: 0px 20px 0px 0px;
+	width: 20px;
+}
+
+#feedback {
+	float: none;
+	margin: 10px auto;
+}
+
+#feedback input {
+	display: inline;
+	float: none
+}
+
+textarea {
+	display: block;
+	float: right;
+	font-size: 0.9em;
+	width: 55%;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 150px;
+}
+
+/* Footer Styles */
+
+footer {
+	clear: both;
+}
+
+footer address {
+	border-top: 1px solid black;
+	text-align: center;
+}

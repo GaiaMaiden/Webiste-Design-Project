@@ -1,0 +1,28 @@
+/*
+   IT Term Project
+
+   Print style sheet
+   Author: Autumn Boyette
+   Date: 10/20/2016  
+
+   Filename:         print.css
+   Supporting Files: 
+
+*/
+
+/* Print Styles */
+
+@page {
+	size: 8.5in 11in portrait;
+	margin: 0.5in;
+}
+
+h2 {
+	font-size: 150%;
+	margin-top: 0.5in;
+}
+
+/* Hide page elements that will not be printed */
+ nav#head, aside, footer, section#links, form {
+	display: none !important;
+}

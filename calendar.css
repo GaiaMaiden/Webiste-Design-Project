@@ -1,0 +1,75 @@
+/*
+   IT Term Project
+
+   Calendar style sheet
+   Author: Autumn Boyette
+   Date: 10/20/2016  
+
+   Filename:         calendar.css
+   Supporting Files: bottom.jpg, bottomleft.jpg, bottomright.jpg,
+                     left.jpg, right.jpg, top.jpg,
+                     tab.jpg, topleft.jpg, topright.jpg
+
+*/
+
+/* Calendar Styles */
+
+table.calendar {
+	border-collapse: separate;
+	border-spacing: 5px;
+	font-size: 8px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+	width: 650px;
+	background-image: url(topleft.jpg), url(topright.jpg), url(bottomleft.jpg), url(bottomright.jpg),
+	                  url(top.jpg), url(left.jpg), url(right.jpg), url(bottom.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, repeat-y, repeat-y, repeat-x;
+    background-position: top left, top right, bottom left, bottom right, top, left, right, bottom;
+}
+
+table.calendar caption {
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: 16px;
+	letter-spacing: 3px;
+	width: 650px;
+}
+
+table.calendar col {
+	width: 14%;
+}
+
+table.calendar col.weekdays {
+	background-color: white;
+}
+
+table.calendar col.weekends {
+	background-color: rgb(190, 239, 197);
+}
+
+table.calendar thead th {
+	background-color: yellow;
+	color: black;
+	letter-spacing: 5px;
+}
+
+table.calendar thead tr {
+	height: 5%;
+}
+
+table.calendar tbody tr {
+	height: 19%;
+}
+
+table.calendar td {
+	border: 1px solid;
+	border-color: grey;
+	vertical-align: top;
+}
+
+table.calendar td h3 {
+	font-size: 8px;
+}

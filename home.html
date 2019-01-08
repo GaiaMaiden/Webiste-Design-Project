@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+      IT Term Project
+
+      Gaiacrusher9 Home Page
+      Author: Autumn Boyette 
+      Date: 11/11/2016  
+
+
+      Filename:         home.html
+      Supporting files: banner2.jpg, Twitch-Icon.png, twitter.png, fb.png
+   -->
+
+      <meta charset="UTF-8" />
+      <title>Home Page</title>
+
+      <script src="modernizr-1.5.js"></script>
+	  <script src="formsubmit.js"></script>
+      <link href="general.css" rel="stylesheet" type="text/css" media="screen" />
+	  <link href="print.css" rel="stylesheet" media="print" />
+      
+   </head>
+
+   <body>
+   
+		<header>
+			<img src="banner2.jpg" alt="GC9 Banner" />
+		</header>
+		
+		<nav id="head">
+         <ul>
+            <li><a href="home.html">Home Page</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="content.html">Content Page</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="friends.html">Friends Page</a></li>
+			<br />
+         </ul>     
+		</nav>
+   
+		<section id="main">
+		
+			<article>
+				<h2>Welcome to the official webpage for Gaiacrusher9!</h2>
+				<p>This site will serve as a one-stop source for all kinds of information 
+				related to myself, the Youtube channel, and anything related to the two. 
+				Check out whatever you want and need, and be sure to visit my
+				Youtube page for all kinds of content!</p>
+			</article>
+			
+			<article>
+				<h3><a href="aboutme.html">About Me:</a></h3>
+				<p>So who are you? Why should I watch you? Why is your mascot a sun 
+				with a cat face? All these questions and other curiosities can be 
+				answered here!</p>
+			</article>
+			
+			<article>
+				<h3><a href="content.html">Content Page:</a></h3>
+				<p>Follow this link to find quick links to the various projects I 
+				have done online! From various Let's Plays, to random gaming content, 
+				to even educational videos, this page serves as your diving board into 
+				the world of the Catsun.</p>
+			</article>
+			
+			<article>
+				<h3><a href="calendar.html">Calendar:</a></h3>
+				<p>Eager to find out what's in the near future for the Catsun? 
+				Check out this page to see all the planned videos and other 
+				moments for the current month!</p>
+			</article>
+			
+			<article>
+				<h3><a href="friends.html">Friends Page:</a></h3>
+				<p>I couldn't have gotten to where I am without alittle help! 
+				Check this page for some links to some of my greatest friends, 
+				and maybe give them some love too (if you haven't already)!</p>
+			</article>
+   
+		</section>
+		
+		<section id="links">
+			<h3>Important Links</h3>
+			<img src="Twitch-Icon.png"/>
+			<p>Looking for my stream page? <a href="https://www.twitch.tv/gaiacrusher9">Look no further!</a></p>
+			<br />
+			<img src="twitter.png"/>
+			<p>Keep up with me on Twitter at <a href="https://twitter.com/Gaiacrusher9">@Gaiacrusher9!</a></p>
+			<br />
+			<img src="fb.png" />
+			<p>Check out my Facebook <a href="https://www.facebook.com/Gaiacrusher9-211003872270157/">page!</a></p>
+		</section>
+		
+		<h2>Give Me Feedback!</h2>
+			<form id="contact" name="contact"
+			action="http://www.gaiacrusher9.com/cgi-bin/contact"
+			method="post">
+			
+			<fieldset id="feedbackFS">
+				<label for="username">Username *
+				<input name="username" id="username" title="Supply Your Username"
+				required="required" />
+				</label>
+				
+				<label for="email">E-mail *
+				<input name="email" id="email" type="email"
+				title="Supply a valid e-mail address"
+				required="required" />
+				</label>
+				
+				<label for="referencetype">How did you find my channel?</label>
+				<select name="referencetype" id ="referencetype">
+					<option value="type1">Twitter</option>
+					<option value="type2">Twitch</option>
+					<option value="type3">Another Youtuber</option>
+					<option value="type4">Facebook</option>
+					<option value="type5">Other</option>
+				</select>
+				
+				<label>What kind of content do you enjoy most from me?</label>
+				<fieldset class="optiongroup">
+					<label for="sLPs ">LPs</label>
+					<input type="radio" name="content" id="sLPs" value="LPs" />
+					
+					<label for="sStreams ">Streams</label>
+					<input type="radio" name="content" id="sStreams" value="Streams" />
+					
+					<label for="sRVideos ">Random Videos</label>
+					<input type="radio" name="content" id="sRVideos" value="Random Videos" />
+				</fieldset>
+				
+				<label id="feedback">
+					<input type="checkbox" name="feedback" />
+					Would you be willing to answer any questions I have on your feedback?
+				</label>
+				
+				<label for="commentbox">Additional Comments<br/>(500 character limit)
+				<textarea name="commentbox" id="commentbox" 
+				maxlength="500"> </textarea>
+				</label>
+			
+				<input type="submit" value="Submit" />
+			</fieldset>
+
+			</form>
+		
+		<footer>
+			<address>
+				Autumn Boyette - http://www.youtube.com/gaiacrusher9
+			</address>
+		</footer>
+   
+   </body>
+   
+</html>
